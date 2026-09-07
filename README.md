@@ -1,16 +1,22 @@
-## Hi there 👋
+### vxkShelby
 
-<!--
-**vxkShelby/vxkShelby** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Solo dev building small, portable Windows tools — things that fix a root
+cause instead of hiding a symptom, and that run from a USB stick without
+installing anything.
 
-Here are some ideas to get you started:
+**Currently building:** [PortableFix](https://github.com/vxkShelby/portableFixer)
+— a portable Windows 10/11 diagnostic and repair tool (Python + PySide6,
+PowerShell-driven actions, dry-run by default, full undo log and audit
+trail). 22 modules covering diagnostics, cleanup, repair, security and
+hardware sensors.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+What I care about in my own projects:
+- No installer, no background services, no telemetry — copy a folder, run it, done.
+- Every destructive action is reversible or backed by a restore point.
+- Dry-run first, confirm before anything MODERATE or worse.
+
+**Stack:** Python · PySide6 · PowerShell · Windows internals (WMI, DISM,
+registry, BCD)
+
+---
+📫 Reach me via GitHub issues on my repos.
